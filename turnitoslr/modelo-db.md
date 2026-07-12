@@ -122,7 +122,7 @@ erDiagram
 
     bookings_analytics {
         uuid id PK
-        uuid booking_id FK UK
+        uuid booking_id UK "FK conceptual a bookings"
         date booking_date
         text business_id
         numeric revenue
@@ -244,7 +244,7 @@ erDiagram
     }
 
     locations {
-        text business_id PK FK
+        text business_id PK "FK conceptual a businesses"
         numeric latitude
         numeric longitude
         geography location_point "PostGIS Point(4326)"
