@@ -1,0 +1,225 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server (split)",
+  "elements": [
+    {
+      "id": "00inde0000",
+      "type": "rectangle",
+      "x": 20,
+      "y": 20,
+      "width": 260,
+      "height": 2680,
+      "angle": 0,
+      "strokeColor": "#1f2937",
+      "backgroundColor": "#f9fafb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1914530617,
+      "version": 1,
+      "versionNonce": 1985728569,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783882121403,
+      "link": null,
+      "locked": false,
+      "syncedAt": "2026-07-12T18:50:23.579Z",
+      "source": "frontend_sync",
+      "syncTimestamp": "2026-07-12T18:50:06.689Z"
+    },
+    {
+      "id": "00inde0001",
+      "type": "text",
+      "x": 40,
+      "y": 40,
+      "width": 129.58192443847656,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1f2937",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1496105175,
+      "version": 1,
+      "versionNonce": 171125719,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783882121403,
+      "link": null,
+      "locked": false,
+      "text": "TurnitosLR\nMapa Completo",
+      "fontSize": 18,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "TurnitosLR\nMapa Completo",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "syncedAt": "2026-07-12T18:50:23.579Z",
+      "source": "frontend_sync",
+      "syncTimestamp": "2026-07-12T18:50:06.689Z"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-01-arquitectura",
+      "x": 30,
+      "y": 60,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#3b82f6",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Arquitectura general\nCliente \u2192 Supabase (49 elem)\n\u2192 abrir turnitoslr/01-arquitectura.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-02-modelo-db",
+      "x": 30,
+      "y": 170,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#7c3aed",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Modelo DB (17 tablas)\nCore + Subs + Aux (73 elem)\n\u2192 abrir turnitoslr/02-modelo-db.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-03-flujos-usuario",
+      "x": 30,
+      "y": 280,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#10b981",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Flujos de usuario\nF1 reserva, F2 login, F3 pago (77 elem)\n\u2192 abrir turnitoslr/03-flujos-usuario.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-04-frontend",
+      "x": 30,
+      "y": 390,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#f59e0b",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Frontend (88 JSX)\nPages + Components + Services (105 elem)\n\u2192 abrir turnitoslr/04-frontend.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-05-integraciones",
+      "x": 30,
+      "y": 500,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#ef4444",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Integraciones externas\nSupabase, MP, WhatsApp, etc (32 elem)\n\u2192 abrir turnitoslr/05-integraciones.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-06-seguridad",
+      "x": 30,
+      "y": 610,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#dc2626",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Seguridad (8 issues)\nCr\u00edticos, importantes, menores (19 elem)\n\u2192 abrir turnitoslr/06-seguridad.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-07-vps-servicios",
+      "x": 30,
+      "y": 720,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#0891b2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Servicios del VPS\nVictoria, Coder, BDD, etc (28 elem)\n\u2192 abrir turnitoslr/07-vps-servicios.excalidraw"
+    },
+    {
+      "type": "rectangle",
+      "id": "link-08-estado-actual",
+      "x": 30,
+      "y": 830,
+      "width": 500,
+      "height": 90,
+      "strokeColor": "#6366f1",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "text": "\ud83d\udcc4 Estado actual\nFunciona / No funciona / Falta (10 elem)\n\u2192 abrir turnitoslr/08-estado-actual.excalidraw"
+    },
+    {
+      "type": "text",
+      "id": "idx-footer",
+      "x": 30,
+      "y": 970,
+      "width": 500,
+      "height": 30,
+      "text": "Hist\u00f3rico: turnitoslr-mapa-completo.excalidraw (todo en uno)",
+      "fontSize": 12,
+      "strokeColor": "#9ca3af",
+      "textAlign": "center"
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}
